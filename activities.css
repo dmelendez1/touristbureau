@@ -1,0 +1,49 @@
+
+  .navbar {
+    background-color: beige; /
+    padding: 1rem 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-brand {
+    margin-bottom: 1rem; 
+  }
+  
+  .nav-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    padding-left: 0;
+    list-style: none;
+    width: 100%; 
+  }
+  
+  .nav-item {
+    padding: 0.25rem 0; 
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  
+  .footer {
+    background-color: beige;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+
+
+
+
+ 

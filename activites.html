@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sedona Activities</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link
+      rel="stylesheet"
+      href="activities.css">
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container text-center">
+          
+          <a class="navbar-brand mx-auto d-block" href="#">
+            <img src="arizonaflag.png" alt="Sedona Arizona Logo" height="40" />
+          </a>
+      
+          
+          <ul class="navbar-nav mx-auto flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dining</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+        
+  
+
+
+
+<div class="container mt-5">
+  <h1>Explore Activities in Sedona</h1>
+
+  
+  <div class="form-group">
+    <label for="activityType">Select Activity Type:</label>
+    <select class="form-control" id="activityType">
+      <option selected>Select one</option>
+      <option value="adventures">Adventures</option>
+      <option value="museums">Museums</option>
+      <option value="wineTasting">Wine Tasting</option>
+      
+    </select>
+  </div>
+
+  
+  <div class="form-group">
+    <label for="specificActivity">Select Activity:</label>
+    <select class="form-control" id="specificActivity">
+      <option selected>Select one</option>
+      
+    </select>
+  </div>
+
+ 
+  <div class="activity-details">
+    <h3>Activity Details</h3>
+    <p><strong>ID:</strong> <span id="activityId">123</span></p>
+    <p><strong>Name:</strong> <span id="activityName">Grand Canyon Adventure</span></p>
+    <p><strong>Description:</strong> <span id="activityDescription">A thrilling helicopter ride over the majestic Grand Canyon.</span></p>
+    <p><strong>Location:</strong> <span id="activityLocation">Sedona Airports</span></p>
+    <p><strong>Price:</strong> $<span id="activityPrice">299</span></p>
+
+    <!-- Purchase Form -->
+    <form id="purchaseForm">
+      <div class="form-group">
+        <label for="ticketQuantity">Number of Tickets Needed:</label>
+        <input type="number" class="form-control" id="ticketQuantity" min="1" value="1">
+      </div>
+      <div class="form-group">
+        <label for="creditCard">Credit Card Number:</label>
+        <input type="text" class="form-control" id="creditCard">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <button type="submit" class="btn btn-primary">Purchase</button>
+      <button type="reset" class="btn btn-secondary">Reset</button>
+    </form>
+  </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2023 Sedona Arizona. All rights reserved.</p>
+    <a href="#" style="color: white; padding: 0 10px">Privacy Policy</a>
+    <a href="#" style="color: white; padding: 0 10px">Contact Us</a>
+    <a href="#" style="color: white; padding: 0 10px">Sitemap</a>
+    <a href="#" style="color: white; padding: 0 10px">Blog</a>
+    
+  </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
